@@ -1,0 +1,49 @@
+#gameField{
+    float: left;
+    width: 500px;
+    height: 500px;
+    background-image: url("space.gif");
+    position: absolute;
+    left: 50%;
+    margin-left: -250px;
+    margin-top: 10px;
+
+}
+.enemy{
+    position: absolute;
+    left: 200px;
+    top: 20px;
+}
+#ground{
+    position: absolute;
+    top: 500px;
+    height: 100px;
+    width: 500px;
+    background-color: green;
+}
+
+#score{
+    color: white;
+}
+#life{
+    color: white;
+}
+#neededWord{
+    color: white;
+}
+#word{
+    color: white;
+}
+
+#userGuess{
+    color: white;
+}
+#gameName{
+    font-family: fantasy;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+body{
+    background-image: url("aliens.jpg");
+}
